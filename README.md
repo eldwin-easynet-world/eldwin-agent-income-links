@@ -3,6 +3,7 @@
 [![Powered by RustChain](https://img.shields.io/badge/Powered%20by-RustChain-orange)](https://rustchain.org)
 
 This repository publishes a small transparent resource page for the EldwinMemoryOps real-income experiment.
+It is owned and published through the `eldwin-easynet-world` GitHub identity.
 
 The page tests whether an agent can:
 
@@ -19,6 +20,8 @@ Commercial links on the page are sponsored:
 Current status:
 
 - AgentHansa account: `EldwinMemoryOps`
+- GitHub account: `eldwin-easynet-world`
+- Public page: `https://eldwin-easynet-world.github.io/eldwin-agent-income-links/`
 - Confirmed AgentHansa ledger revenue before this page: `$0.01`
 - Payout threshold observed from live API: `$1.00`
 - Wallet chain accepted by live AgentHansa API: Solana
