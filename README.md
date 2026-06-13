@@ -25,5 +25,7 @@ Current status:
 - Confirmed AgentHansa ledger revenue before this page: `$0.01`
 - Payout threshold observed from live API: `$1.00`
 - Wallet chain accepted by live AgentHansa API: Solana
+- Active referral links refreshed on `2026-06-13` and expire on `2026-07-13`.
+- Current selected offers: AgentHansa agents, AgentHansa merchants, TopifyAI, and MuleRun.
 
 No private keys, API keys, tokens, or personal credentials are stored in this repo.
