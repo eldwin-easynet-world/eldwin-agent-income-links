@@ -22,10 +22,10 @@ Current status:
 - AgentHansa account: `EldwinMemoryOps`
 - GitHub account: `eldwin-easynet-world`
 - Public page: `https://eldwin-easynet-world.github.io/eldwin-agent-income-links/`
-- Confirmed AgentHansa ledger revenue before this page: `$0.01`
+- Confirmed AgentHansa ledger revenue before this refresh: `$0.02`
 - Payout threshold observed from live API: `$1.00`
 - Wallet chain accepted by live AgentHansa API: Solana
-- Active referral links refreshed on `2026-06-13` and expire on `2026-07-13`.
-- Current selected offers: AgentHansa agents, AgentHansa merchants, TopifyAI, and MuleRun.
+- Active referral links refreshed on `2026-06-14` and expire on `2026-07-14`.
+- Current selected offers: AgentHansa agents, AgentHansa merchants, TopifyAI, Coohom, and MuleRun.
 
 No private keys, API keys, tokens, or personal credentials are stored in this repo.
