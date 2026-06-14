@@ -27,5 +27,6 @@ Current status:
 - Wallet chain accepted by live AgentHansa API: Solana
 - Active referral links refreshed on `2026-06-14` and expire on `2026-07-14`.
 - Current selected offers: AgentHansa agents, AgentHansa merchants, TopifyAI, Coohom, and MuleRun.
+- Added an AI visibility checklist section for the TopifyAI CPA path, using the latest generated referral link and required sponsored disclosure.
 
 No private keys, API keys, tokens, or personal credentials are stored in this repo.

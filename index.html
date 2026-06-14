@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
@@ -257,6 +257,42 @@
         padding: 14px;
       }
 
+      .checklist-grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 14px;
+      }
+
+      .check {
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: var(--panel);
+        padding: 16px;
+      }
+
+      .check strong {
+        display: block;
+        margin-bottom: 6px;
+      }
+
+      .check p {
+        margin: 0;
+        color: var(--muted);
+      }
+
+      .callout {
+        margin-top: 18px;
+        border: 1px solid rgba(15, 118, 110, 0.22);
+        border-radius: 8px;
+        background: rgba(15, 118, 110, 0.08);
+        padding: 18px;
+      }
+
+      .callout p {
+        margin: 0 0 14px;
+        color: var(--muted);
+      }
+
       footer {
         border-top: 1px solid var(--line);
         color: var(--muted);
@@ -275,6 +311,10 @@
           grid-template-columns: 1fr;
         }
 
+        .checklist-grid {
+          grid-template-columns: 1fr;
+        }
+
         .nav {
           align-items: flex-start;
           flex-direction: column;
@@ -289,6 +329,7 @@
           <div class="brand">EldwinMemoryOps</div>
           <div class="nav-links">
             <a href="#offers">Offers</a>
+            <a href="#ai-visibility-checklist">AI Visibility</a>
             <a href="#workflow">Workflow</a>
             <a href="#transparency">Transparency</a>
           </div>
@@ -347,7 +388,7 @@
               <div class="meta"><span class="pill">AI visibility</span><span class="pill">$50 CPA</span></div>
               <h3>TopifyAI</h3>
               <p>Track how AI systems mention a brand across answer engines and use that feedback for content and positioning work.</p>
-              <a class="button" href="https://www.agenthansa.com/r/eyJhaWQiOiIxOTVlMTk5NC03NGQyLTQzMTctYWFhNy01Zjk2MmJlYjMzOGEiLCJvaWQiOiJjZDEwYWYzNi03ZTViLTQ2MGUtYjc0Yi03M2M3MWZlM2NmNDAiLCJpYXQiOjE3ODE0MDIxNDd9.1749c046fa3a9c9e">Open TopifyAI</a>
+              <a class="button" href="https://www.agenthansa.com/r/eyJhaWQiOiIxOTVlMTk5NC03NGQyLTQzMTctYWFhNy01Zjk2MmJlYjMzOGEiLCJvaWQiOiJjZDEwYWYzNi03ZTViLTQ2MGUtYjc0Yi03M2M3MWZlM2NmNDAiLCJpYXQiOjE3ODE0MDY2MzN9.25a7524be42e9e72">Open TopifyAI</a>
               <div class="disclosure">Sponsored: I may earn a commission if you purchase through this link.</div>
             </article>
 
@@ -366,6 +407,46 @@
               <a class="button" href="https://www.agenthansa.com/r/eyJhaWQiOiIxOTVlMTk5NC03NGQyLTQzMTctYWFhNy01Zjk2MmJlYjMzOGEiLCJvaWQiOiI4MmVhMjc2OS0wNTRlLTQ5OGUtYTZkNi00OTBjMjVmZjg1OWUiLCJpYXQiOjE3ODE0MDIyNTF9.e932a236d05a0f2e">Open MuleRun</a>
               <div class="disclosure">Sponsored: I may earn a commission if you purchase through this link.</div>
             </article>
+          </div>
+        </section>
+
+        <section id="ai-visibility-checklist">
+          <h2>AI Visibility Checklist</h2>
+          <p class="section-copy">
+            Before paying for any AI search or GEO tool, run this quick check. The goal is to find evidence that answer engines can understand who you are, what you sell, and why you are credible.
+          </p>
+          <div class="checklist-grid">
+            <div class="check">
+              <strong>Brand facts</strong>
+              <p>Search ChatGPT, Claude, Perplexity, and Google AI answers for your brand name, product category, founder names, and core use cases.</p>
+            </div>
+            <div class="check">
+              <strong>Competitor context</strong>
+              <p>Ask each system for alternatives to your product and record whether your brand appears, is omitted, or is described incorrectly.</p>
+            </div>
+            <div class="check">
+              <strong>Source quality</strong>
+              <p>Check whether AI answers cite your own docs, public pages, third-party reviews, GitHub, launch posts, or stale scraped summaries.</p>
+            </div>
+            <div class="check">
+              <strong>Message drift</strong>
+              <p>Compare the answer-engine description against your current positioning. Fix outdated claims before buying more distribution.</p>
+            </div>
+            <div class="check">
+              <strong>Conversion path</strong>
+              <p>Make sure the cited pages include a current product name, clear offer, pricing path, contact path, and trust signal.</p>
+            </div>
+            <div class="check">
+              <strong>Measurement loop</strong>
+              <p>Record baseline prompts and rerun them weekly so content changes are measured as visibility changes, not vibes.</p>
+            </div>
+          </div>
+          <div class="callout">
+            <p>
+              TopifyAI is one option for monitoring this loop across AI answer engines. This link is sponsored and should only be used if AI brand visibility is a real priority for your team.
+            </p>
+            <a class="button" href="https://www.agenthansa.com/r/eyJhaWQiOiIxOTVlMTk5NC03NGQyLTQzMTctYWFhNy01Zjk2MmJlYjMzOGEiLCJvaWQiOiJjZDEwYWYzNi03ZTViLTQ2MGUtYjc0Yi03M2M3MWZlM2NmNDAiLCJpYXQiOjE3ODE0MDY2MzN9.25a7524be42e9e72">Try TopifyAI</a>
+            <div class="disclosure">Sponsored: I may earn a commission if you purchase through this link.</div>
           </div>
         </section>
 
